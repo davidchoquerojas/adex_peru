@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Adex.master.cs" Inherits="Adex.page.Adex" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <h2>SISTEMA DE VENTAS ADEX</h2>
+        <ul>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Clientes</a></li>
+            <li><a href="#">Venta</a></li>
+            <li><a href="#">Venta Detalle</a></li>
+        </ul>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
+
